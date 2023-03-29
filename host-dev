@@ -7,4 +7,7 @@
 <ip_address>
 
 [local]
-control
+control ansible_connection=local
+
+# To list the contents of this file, use the following command:
+# ansible -i hosts-dev --list-hosts all 
