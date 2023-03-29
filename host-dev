@@ -1,0 +1,10 @@
+# hosts-dev
+
+[webservers]
+<ip_address>
+
+[loadbalancers]
+<ip_address>
+
+[local]
+control
