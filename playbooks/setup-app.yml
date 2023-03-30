@@ -16,6 +16,6 @@
           regexp: ^short_open_tag
           line: 'short_open_tag=On'
       
-      handlers:
+    handlers:
       - name: restart apache
         service: name=httpd state=restarted
